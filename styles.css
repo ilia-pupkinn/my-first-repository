@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.awesome-box {
+  width: 500px;
+  height: 250px;
+  background-color: #b3e6cc;
+  color: white;
+  transition: all 0.8s;
+}
+
+.awesome-box:hover {
+  transform: scale(1.2);
+  background-color: #40bf80;
+}
